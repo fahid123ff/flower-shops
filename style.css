@@ -1,0 +1,293 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header {
+    background: rgba(229, 84, 115, 0.10);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 240px;
+
+
+
+
+
+}
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+ .header_Img{
+    margin-left: 206px;
+    margin-top: 130px;
+    /*  eita dit krce */
+ }
+
+.banner-heade {
+    display: flex;
+    width: 708px;
+    color: #272727;
+}
+
+.pragaph-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+}
+
+.btn-primary {
+    display: inline-flex;
+    padding: 14px 25px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+}
+
+.about {
+    text-align: center;
+
+    margin: auto;
+}
+
+.main-title {
+    color: #272727;
+
+    font-family: Lato;
+    font-size: 40px;
+
+    font-weight: 800;
+
+    padding-top: 150px;
+}
+
+.main-discription {
+
+    color: rgba(39, 39, 39, 0.60);
+
+    font-family: Lato;
+    font-size: 18px;
+
+    font-weight: 400;
+
+
+}
+
+.box-one {
+    background: rgba(167, 33, 98, 0.15);
+
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height:538px;
+
+
+}
+
+.all-box {
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    padding-top: 15px;
+    padding-top: 15px;
+    justify-content: space-around;
+}
+
+.box-two {
+    background: rgba(5, 151, 160, 0.15);
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+
+}
+
+.box-three {
+
+    background: rgba(71, 125, 17, 0.15);
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+
+
+}
+
+.flower {
+    width: 310px;
+    height: 428px;
+    flex-shrink: 0;
+    margin-top: 110px;
+}
+
+.test{
+    justify-content: center;
+    display: flex;
+    margin-left: -10px;
+    /* justify-content: space-around; */
+}
+
+.header_Img2{
+    /* margin-left: -1900px; */
+}
+.cards{
+   display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 200px;
+    gap: 60px;
+    text-align: center;
+    margin-top: 100px;
+    background-position: center;
+    margin-left: 12%;
+}
+.card{
+    justify-content: center;
+    margin-left: 180px;
+    margin-top: 40px;
+}
+
+
+
+.offer{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    width: 1903px;
+    height: 500px;
+    display: flex;
+    margin-top: 100px;
+    
+}
+.of-red{
+    color: #E55473;
+}
+.offer-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+.offer-explanation{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.offer-img{
+    width: 318px;
+    height: 420px;
+    margin-left: 200px;
+    margin-top: 50px;
+    
+}
+.offer-left{
+    margin-top: 200px;
+    margin-left: 400px;
+}
+#offer-btn{
+    margin-left: 235px;
+    margin-top: 10px;
+}
+
+
+
+.instagram{
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.instagram-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.instagram-explanation{
+    width: 594px;
+    display: flex;
+    width: 594px;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.instagram-image{
+    display: flex;
+    gap: 15px;
+    margin-left: 240px;
+    margin-top: 50px ;
+}
+.instagram-pic{
+    width: 342px;
+    height: 396px;
+}
+
+.bg_image{
+    background-image: url('./Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.input_Box{
+    display: flex;
+   align-items: center;
+    margin-top: 30px;
+}
+
+.input_text{
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    width: 500px;
+    height: 20px;
+    padding: 10px;
+}
+
+
+.input_btn{
+
+    display: inline-flex;
+    padding: 12px 20px;
+    align-items: flex-start;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    margin-left: 10px;
+}
